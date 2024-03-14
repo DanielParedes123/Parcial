@@ -1,0 +1,57 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  header {
+    margin-bottom: 50px;
+    background-color: red;
+    color: white;
+    padding: 5px;
+  }
+  
+  header p {
+    text-align: center;
+    margin: 0 auto;
+    font-size: 60px;
+  }
+  
+  .container {
+    width: 80%;
+    margin: auto;
+  }
+  
+  .text-content {
+    margin-bottom: 20px;
+    display: flex; /* Utilizamos flexbox */
+  }
+  
+  .column {
+    flex: 1; /* Cada columna ocupa el 50% del ancho */
+  }
+  
+  .column img {
+    max-width: 100%; /* La imagen ocupa todo el ancho de su contenedor */
+    display: block; /* Para evitar espacio adicional */
+    margin-bottom: 10px; /* Espacio entre la imagen y el texto */
+  }
+  
+  .container p {
+    font-size: 18px;
+  }
+  
+  footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: red;
+    color: white;
+    padding: 10px 0;
+  }
+  
+  footer p {
+    text-align: center;
+    font-size: 20px;
+  }
